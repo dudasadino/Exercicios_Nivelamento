@@ -1,15 +1,23 @@
 function ForteTortilha ( profissao, moeda, Dia ){
       let trabalhador = profissao
-      let Ouro = moeda* Dia
-      let Prata = moeda* Dia
-      let Cobre = moeda* Dia
+      let Cobre = 0
+      let Ouro = 0
+      let Prata = 0
+      let salario = 0
 
-
-          return "em " + Dia + " dias o " + profissao + " recebe em Ouro " +  Ouro
- 
+      if( moeda >= 10 && moeda < 100 ){
+        salario = (Prata + moeda) / Dia
+         return "em " + Dia + " dias o " + profissao + " recebe em Prata "  + salario
+      }   if( moeda >= 100){
+        salario = (Ouro + moeda) / Dia
+         return "em " + Dia + " dias o " + profissao + " recebe em Ouro "  + salario
+     
+        }
+        return "em " + Dia + " dias o " + profissao + " recebe em Cobre "  + (Cobre + moeda)/ Dia
     }
-console.log(ForteTortilha("carteiro" ,5 , 30  ))
-console.log(ForteTortilha("ferreiro" ,2 , 60  ))
+        
+console.log(ForteTortilha("carteiro" ,10 , 10  ))
+console.log(ForteTortilha("ferreiro" ,100 , 60  ))
 console.log(ForteTortilha("alfaiate" ,6 , 40  ))
     /*Exemplo da questao 6
 

@@ -24,7 +24,7 @@ vamos criar uma fortaleza de um jogo de RPG!
 
 Uma fortaleza é um lugar onde guerreiros e guerreiras guardam suas riquesas e recursos
 e se protegem contra os inimigos. Forte Tortilha é uma fortaleza que precisa contabilizar
-quanto cada um dos seus serviçais deve receber em Ouro, Prata e Cobre pelos serviços que
+qaunto cada um dos seus serviçais deve receber em Ouro, Prata e Cobre pelos serviços que
 desempenham. Cada serviçal demora uma quantidade de dias para executar seu serviço
 Podemos ter mais de 1 serviçal para desempenhar o mesmo serviço.
 
