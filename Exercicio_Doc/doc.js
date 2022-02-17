@@ -62,6 +62,17 @@ for (i = inicio; i <= final; i++) {
     var idade = pessoas[i].idade
     var rg = pessoas[i].rg
     var cpf = pessoas[i].cpf
+    var rua = pessoas[i].endereco.rua
+    var numero = pessoas[i].endereco.numero
+    var bairro = pessoas[i].endereco.bairro
+    var cidade = pessoas[i].endereco.cidade
+    var estado = pessoas[i].endereco.estado
+    var cep = pessoas[i].endereco.cep
 
-    console.log(`Nome: ${nome}\nIdade: ${idade}\nRG: [${rg}] - CPF: ${cpf}`)
+    console.log(`Nome: ${nome}\nIdade: ${idade}\nRG: [${rg}] - CPF: ${cpf}
+    
+    Endereço:
+    Rua ${rua}, ${numero}, ${bairro} - ${cidade} / ${estado}
+    cep: ${cep}
+    `)
 }
