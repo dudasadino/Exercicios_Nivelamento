@@ -61,6 +61,7 @@ for (i = inicio; i <= final; i++) {
     var nome = pessoas[i].nome
     var idade = pessoas[i].idade
     var rg = pessoas[i].rg
+    var cpf = pessoas[i].cpf
 
-    console.log(`Nome: ${nome}\nIdade: ${idade}\nRG: [${rg}]\n`)
+    console.log(`Nome: ${nome}\nIdade: ${idade}\nRG: [${rg}] - CPF: ${cpf}`)
 }
